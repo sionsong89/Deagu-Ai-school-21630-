@@ -1,0 +1,91 @@
+#forst1 {
+	position: relative;
+
+	height: 400px;
+	background-image: url(../img/mobile/forest/forest1/mobile_forest1_bg.png);
+}
+
+
+#forest1 .leftTree{
+	width: 79px;
+	height: 187px;
+	background-image: url(../img/mobile/forest/forest1/mobile_lefttree.png);
+}
+
+
+#forest1 .treeWrap {
+	width: 68px;
+	height: 129px;
+
+	top: 200px;
+}
+
+#forest1 .treeWrap .rabbit1,
+#forest1 .treeWrap .rabbit2 {
+	display: none;
+}
+
+#forest1 .treeWrap .rightTree {
+	width: 68px;
+	height: 129px;
+	background-image: url(../img/forest/forest1/mobile_righttree.png);
+}
+
+#forest2 {
+	position: relative;
+
+	height: 400px;
+	background-image: url(../img/mobile/forest/forest2/mobile_forest2_bg.png);
+}
+
+#forest2 .frog{
+	width: 34px;
+	height: 57px;
+	background-image: url(../img/mobile/forest/forest2/mobile_frog_bg.png);
+
+	margin: 0 0 0 20px;
+}
+
+#forest2 .machineWrap2{
+	width: 200px;
+	height: 110px;
+	background-color: yellow;
+
+	top: 70px;
+	margin-left: -97px;
+}
+
+#forest2 .machineWrap2 .machineBottom{
+	width: 141px;
+	height: 85px;
+	background-image: url(../img/mobile/forest/forest2/mobile_machinebottom.png);
+
+	left: 50%;
+	margin:50px 0 0 -70.5px
+
+}	
+
+#forest2 .machineWrap2 .machineLeft{
+	width: 46px;
+	height: 85px;
+	background-image: url(../img/mobile/forest/forest2/mobile_machineleft.png);
+}
+
+
+#forest2 .machineWrap2 .macineRight{
+	width: 46px;
+	height: 93px;
+	background-image: url(../img/mobile/forest/forest2/mobile_machineright.png);
+
+	margin: -10px 0 0 130px;
+}
+
+#forest2 forest2Tree {
+	float: right;
+	width: 69px;
+	height: 76px;
+	background-image: url(../img/mobile/forest/forest2/mobile_forst2tree.png);
+
+	top: 130px;
+	margin-right: 20px;
+}

@@ -1,0 +1,34 @@
+#forest1 .treeWrap .rabbit1{
+	animation: spinRabbitOne 1000ms linear infinite alternate;
+}
+
+@keyframes spinRabbitOne {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(10deg);}
+}
+
+#forest1 .treeWrap .rabbit2 {
+	animation: spinRabbiTwo 1000ms linear infinite alternate;
+}
+@keyframes spinRabbiTwo {
+	from {  transform: rotate(10deg); }
+	to{transform: rotate(0deg);}
+}
+
+#forest2 .machineWrap2 .macineLeft{
+	animation: moveLeft 1s linear infinite alternate;
+}
+
+@keyframes moveLeft {
+	from {left: 30px;}
+	to{left: 0;}
+}
+
+#forest2 .machineWrap2 .macineRight{
+	animation: moveRight 1s linear infinite alternate;
+}
+
+@keyframes moveRight {
+	from {left: -30px;}
+	to{left: 0;}
+}
