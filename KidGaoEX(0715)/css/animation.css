@@ -1,0 +1,87 @@
+#forest1 .treeWrap .rabbit1{
+	animation: spinRabbitOne 1000ms linear infinite alternate;
+}
+
+@keyframes spinRabbitOne {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(10deg);}
+}
+
+#forest1 .treeWrap .rabbit2 {
+	animation: spinRabbiTwo 1000ms linear infinite alternate;
+}
+@keyframes spinRabbiTwo {
+	from {  transform: rotate(10deg); }
+	to{transform: rotate(0deg);}
+}
+
+#forest2 .machineWrap2 .macineLeft{
+	animation: moveLeft 1s linear infinite alternate;
+}
+
+@keyframes moveLeft {
+	from {left: 30px;}
+	to{left: 0;}
+}
+
+#forest2 .machineWrap2 .macineRight{
+	animation: moveRight 1s linear infinite alternate;
+}
+
+@keyframes moveRight {
+	from {left: -30px;}
+	to{left: 0;}
+}
+
+#night2 .moon {
+	animation: moveMoon linear 10s infinite;
+}
+
+@keyframes moveMoon{
+	from{
+		margin-left: -135px;
+	}
+	 to{
+	 	margin-left: 110%;
+	 }
+
+}
+
+
+#morning .sun {
+	animation: movesun linear 10s 1500ms infinite;
+}
+
+@keyframes movesun{
+	from{
+		margin-left: -131px;
+	}
+	 to{
+	 	margin-left: 110%;
+	 }
+
+}
+
+@keyframes bubble{
+	 animation-name: stylie-keyframes;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+
+.bubble1 {
+  animation-name: bubble1-keyframes;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+@keyframes bubble1-keyframes {
+  0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
+  100% {transform:translate(-146px, -185px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
+}
