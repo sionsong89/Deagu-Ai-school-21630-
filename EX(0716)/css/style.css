@@ -1,0 +1,81 @@
+*{
+	margin:  0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+
+#one, #two, #three {
+	width: 100%;
+	height: 800px;
+}
+
+#one {
+	background-color: yellow;
+}
+
+#two {
+	background-color:pink ;
+}
+
+#three {
+	background-color: gray;
+}
+
+.text-box {
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* 한줄 말줄일때 쓰는 3가지 css코드 */
+}
+
+h1 {
+	background-color: pink;
+}
+
+h2{
+	background-color: gray;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*class=ellipsis를 html문서안에 추가하는 방식  */
+.m-b-10{
+	margin-bottom: 10px;
+}
+
+.m-b-15{
+	margin-bottom: 20px;
+}
+
+.m-b-20{
+	margin-bottom: 20px;
+}
+
+.m-b-100 {
+	margin-bottom: 100px;
+}
+/*.m-b-숫자를 html문서안에 추가하는 방식  */
+
+.p-b-100{
+
+}
+
+.p-t-5-{
+
+}
+.p-l-10{
+
+}
+.p-r-10{
+
+}
