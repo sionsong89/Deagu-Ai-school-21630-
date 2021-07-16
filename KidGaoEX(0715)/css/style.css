@@ -390,7 +390,6 @@ button {
 
 	margin: 100px 200px 0 0;
 
-
 }
 
 #color2 {
@@ -466,3 +465,31 @@ button {
 	left: 50%;
 	margin-left: -887px;
 }
+
+#color3 .book{
+	float: right;
+
+
+	width: 417px;
+	height: 178px;
+	background-image: url(../img/color/color3/book.png);
+}
+
+#color3 .logo{
+	position: absolute;
+
+	left: 50%;
+	margin-left: -378.5px;
+}
+
+#color3 .dice{
+	position: absolute;
+	width: 239px;
+	height: 200px;
+	background-image: url(../img/color/color3/dice.png);
+
+	left: 0;
+	bottom: 0;
+}
+
+
