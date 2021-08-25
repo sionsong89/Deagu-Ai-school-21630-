@@ -1,0 +1,56 @@
+/*변수*/
+:root {
+	--black: #18181a;
+	--purple: #9147ff;
+	--font-size-40: 40px;
+}
+
+/*black purple   fontsize 가 변수다*/
+
+h1 {
+	background-color: var(--black);
+	font-size: var(--font-size-40);
+	color: var(--purple);
+}
+
+h2 {
+	color: var(--brand-color);
+}
+
+
+
+
+
+
+
+#intro {
+	--font-color: blue;
+	--font-size: 50px;
+}
+
+#intro p{
+	font-size: var(--font-size);
+	color: var(--font-color);
+}
+
+
+#footer p {
+	ffont-size: var(--font-size);
+	color: var(--font-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
